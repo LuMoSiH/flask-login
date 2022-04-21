@@ -6,7 +6,8 @@ Check the "requirements.txt" file
 
 🛠️ Installation Steps <br>
 1 - Create VM (python -m venv venv)<br>
-2 - Create Table <br>
+2 - Create db <br>
+3 - Create Table <br>
 `CREATE TABLE users (
     id       INTEGER       PRIMARY KEY AUTOINCREMENT
                            NOT NULL
