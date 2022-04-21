@@ -6,7 +6,7 @@ import random
 
 # Config App
 app = Flask(__name__, static_folder="./static", template_folder="templates")
-app.secret_key = "U2VjcmV0a2V5THVhbk1vcmVuZ3Vp"#<<<<< INSERT YOUR SECRET KEY
+app.secret_key = ""#<<<<< INSERT YOUR SECRET KEY
 # Config session
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
