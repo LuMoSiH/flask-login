@@ -16,4 +16,4 @@ Check the "requirements.txt" file
                            NOT NULL,
     password VARCHAR (255) NOT NULL
 );`<br>
-3 - Install requeriments.txt
+4 - Install requeriments.txt
