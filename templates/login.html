@@ -1,6 +1,7 @@
 {% extends "layout.html" %}
 
 {% block body %}
+<br>
 <div class="container">
     <form action="/logon" method="POST">
       <div class="form-group">
@@ -13,7 +14,25 @@
       <div class="form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1" name="remember">Remember
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">Login</button>
     </form>
+
+  <br>
+  <div class="card" style="width: 100%;">
+    <div class="card-header" style="background-color:#212529; color:white">
+      Accounts | Password
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">admin | 1234</li>
+      <li class="list-group-item">user1 | 4321</li>
+      <li class="list-group-item">user2 | 1243</li>
+      <li class="list-group-item">user3 | 3421</li>
+    </ul>
   </div>
+
+</div>
+
+
+
+
 {% endblock%}
